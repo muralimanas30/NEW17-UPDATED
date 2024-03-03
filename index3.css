@@ -44,14 +44,15 @@
 #about-text{
     display: grid;
     overflow-x:hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: clamp(20px, 1.5rem, 3rem);
     place-content: center;
     flex-basis: 50%;
     background: repeating-linear-gradient(to right , #e63c3c , #000000);
     border-radius: 15px;
-    
+    padding: 1rem;
+    box-sizing: border-box;
     text-align: center;
 }
 #about-image-container{
@@ -76,7 +77,7 @@
 .about-image{
     height: 90%;
     width: 90%;
-    aspect-ratio:1/1;
+    
     border-radius: 15px;
     box-shadow: 3px 8px 25px 2px black;
     border: 2px solid black;
