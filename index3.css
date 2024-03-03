@@ -29,7 +29,7 @@
     justify-items: center;
     justify-content: center;
     width: clamp(40rem, 65rem, 80rem);
-    height: 30%;
+    height: 30vh;
     border-radius: 10px;
     border: 2px solid white;
     background-color: transparent;
